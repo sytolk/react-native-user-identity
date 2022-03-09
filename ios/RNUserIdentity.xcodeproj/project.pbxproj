@@ -10,6 +10,7 @@
 		27C39DA82264FAB800A16A50 /* RNUserIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C39DA72264FAB800A16A50 /* RNUserIdentity.swift */; };
 		B3E7B58A1CC2AC0600A0062D /* RNUserIdentity.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNUserIdentity.m */; };
 		FE93E08827D7A95A00186012 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE93E08727D7A95A00186012 /* Contact.swift */; };
+		FEEF6DF927D88F8A0028AA81 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEF6DF827D88F8A0028AA81 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +31,7 @@
 		27C39DA72264FAB800A16A50 /* RNUserIdentity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNUserIdentity.swift; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNUserIdentity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNUserIdentity.m; sourceTree = "<group>"; };
 		FE93E08727D7A95A00186012 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		FEEF6DF827D88F8A0028AA81 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				FEEF6DF827D88F8A0028AA81 /* ViewModel.swift */,
 				FE93E08727D7A95A00186012 /* Contact.swift */,
 				27C39DA72264FAB800A16A50 /* RNUserIdentity.swift */,
 				B3E7B5891CC2AC0600A0062D /* RNUserIdentity.m */,
@@ -130,6 +133,7 @@
 			files = (
 				FE93E08827D7A95A00186012 /* Contact.swift in Sources */,
 				27C39DA82264FAB800A16A50 /* RNUserIdentity.swift in Sources */,
+				FEEF6DF927D88F8A0028AA81 /* ViewModel.swift in Sources */,
 				B3E7B58A1CC2AC0600A0062D /* RNUserIdentity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -174,7 +178,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -212,7 +216,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 4.2;
