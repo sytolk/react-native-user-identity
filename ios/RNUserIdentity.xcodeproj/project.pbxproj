@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		27C39DA82264FAB800A16A50 /* RNUserIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C39DA72264FAB800A16A50 /* RNUserIdentity.swift */; };
 		B3E7B58A1CC2AC0600A0062D /* RNUserIdentity.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNUserIdentity.m */; };
+		FE93E08827D7A95A00186012 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE93E08727D7A95A00186012 /* Contact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,7 @@
 		27C39DA62264FAB800A16A50 /* RNUserIdentity-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNUserIdentity-Bridging-Header.h"; sourceTree = "<group>"; };
 		27C39DA72264FAB800A16A50 /* RNUserIdentity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNUserIdentity.swift; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNUserIdentity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNUserIdentity.m; sourceTree = "<group>"; };
+		FE93E08727D7A95A00186012 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				FE93E08727D7A95A00186012 /* Contact.swift */,
 				27C39DA72264FAB800A16A50 /* RNUserIdentity.swift */,
 				B3E7B5891CC2AC0600A0062D /* RNUserIdentity.m */,
 				27C39DA62264FAB800A16A50 /* RNUserIdentity-Bridging-Header.h */,
@@ -125,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE93E08827D7A95A00186012 /* Contact.swift in Sources */,
 				27C39DA82264FAB800A16A50 /* RNUserIdentity.swift in Sources */,
 				B3E7B58A1CC2AC0600A0062D /* RNUserIdentity.m in Sources */,
 			);

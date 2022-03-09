@@ -1,6 +1,6 @@
 {
   "name": "react-native-user-identity",
-  "version": "1.1.7",
+  "version": "1.5.1",
   "summary": "Get the user id configured for the device (iCloud recordID for iOS, email of a device account for android)",
   "license": "Apache-2.0",
   "authors": "Julian Ramírez <julianramirez@gmail.com>",
